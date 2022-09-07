@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">CREATE ACCOUNT</h1>
+      <form action="/create/account" class="signup-form" method="post">
+        <label for="username">
+          <i class="uil uil-user-circle icon"></i
+          ><input
+            type="text"
+            placeholder="username"
+            name="username"
+            id="username"
+          />
+        </label>
+        <label for="email">
+          <i class="uil uil-envelope-alt icon"></i
+          ><input
+            type="email"
+            placeholder="Enter your email"
+            name="email"
+            id="email"
+          />
+        </label>
+        <label for="password">
+          <i class="uil uil-lock icon"></i
+          ><input
+            type="password"
+            placeholder="password"
+            name="password"
+            id="password"
+          />
+        </label>
+        <div class="sign-up-buttons">
+          <button type="submit" id="signup-button">Sign Up</button>
+        </div>
+        <div class="other-alternatives">
+          <p>
+            <a href="login.html" id="login-link">Already have an account?</a>
+          </p>
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

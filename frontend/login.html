@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | Sign Up page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+  </head>
+
+    <div class="container">
+      <h1 class="heading">LOGIN</h1>
+      <form action="/login" class="login-form" method="post">
+        <label for="username">
+          <i class="uil uil-user-circle icon"></i
+          ><input
+            type="text"
+            name="username"
+            placeholder="username"
+            id="username"
+          />
+        </label>
+        <label for="password">
+          <i class="uil uil-lock icon"></i
+          ><input
+            type="password"
+            name="password"
+            placeholder="password"
+            id="password"
+          />
+        </label>
+        <div class="login-buttons">
+          <button type="submit" id="login-button">Login</button>
+        </div>
+        <div class="other-alternatives">
+          <p>
+            <a href="signup.html" id="create-account-link">Create account?</a>
+          </p>
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

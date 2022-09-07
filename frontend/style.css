@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+header{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 3em;
+    width: 100%;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.learn{
+    color: #125757;
+}
+.swahili{
+color: #358888;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+a{
+    text-decoration: none;
+    color: #005959;
+    font-size: inherit;
+}
+
+.showcase{
+    background-image: url(./images/rich-tervet-1jUPdfWZgps-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25em;
+    width: 100%;
+    color: #005959;
+    margin: 3em 0;
+}
+.showcase-contents{
+    width: 30%;
+    margin: 2em;
+}
+.show-case-links{
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    gap: 1.2rem;
+}
+.showcase-contents .index-heading,.show-case-descrition,.show-case-links{
+    margin: .5em 0;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color:  rgb(17, 156, 149);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    padding: .25em;
+}
+.heading{
+    font-size: 3rem;
+    color: #033131;
+    padding: .5em;
+}
+.login-form,.signup-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: .5em;
+    padding: 2em;
+}
+.signup-form{
+    padding: .5em;
+    gap: 1rem;
+}
+label,.login-buttons,.sign-up-buttons{
+    display: flex;
+    width: 100%;
+    padding: .25em;
+    gap: 1.5rem;
+}
+label input{
+    width: 90%;
+
+}
+input,button{
+    height: 2.5rem;
+    outline: none;
+    border: none;
+    padding: .5em;
+    font-size: 1.2rem;
+    border-radius: .5em;
+}
+label .icon{
+    font-size: 2.5rem;
+    color: #033131;
+}
+.login-buttons,.sign-up-buttons{
+    justify-content: center;
+    align-items: center;
+}
+.login-buttons button{
+    width: 6rem;
+}
+#login-button,#signup-button{
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #0b4c4c;
+    color: #72e7e7;
+}
+#login-button{
+    background-color: #0b4c4c;
+}
+
+#signup-button{
+    margin: .25em 0;
+}
+.sign-up,.login{
+    width: 5rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .4em;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, .3);
+    cursor: pointer;
+}
+.sign-up{
+    border: #005959 solid 2px;
+}
+.login{
+    background-color: #0b4c4c;
+    color: #72e7e7;
+}
+.login a{
+    color: #72e7e7;
+}
+.other-alternatives{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 0 1rem 0;
+}
+.other-alternatives a:hover{
+    color: #72e7e7;
+    transition: 650ms ease-in-out;
+}
